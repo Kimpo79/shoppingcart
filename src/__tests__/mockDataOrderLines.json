@@ -1,0 +1,62 @@
+[
+  {
+    "id": 2,
+    "price": "300",
+    "weight": 0.2,
+    "name": "Trådfria Lampor",
+    "brand": "IKEA",
+    "color": "red",
+    "storage": "",
+    "power": "9.5",
+    "orderLineId": "2red9.5",
+    "quantity": 2
+  },
+  {
+    "id": 2,
+    "price": "300",
+    "weight": 0.2,
+    "name": "Trådfria Lampor",
+    "brand": "IKEA",
+    "color": "white",
+    "storage": "",
+    "power": "9.5",
+    "orderLineId": "2white9.5",
+    "quantity": 1
+  },
+  {
+    "id": 3,
+    "price": "5000",
+    "weight": 2.1,
+    "name": "Playstation 4",
+    "brand": "Sony",
+    "color": "black",
+    "storage": "1000",
+    "power": "",
+    "orderLineId": "3black1000",
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "price": "950",
+    "weight": 0.5,
+    "name": "Bluetooth speaker",
+    "brand": "Marshall",
+    "color": "black",
+    "storage": "",
+    "power": "",
+    "orderLineId": "6black",
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "price": "950",
+    "weight": 0.5,
+    "name": "Bluetooth speaker",
+    "brand": "Marshall",
+    "color": "white",
+    "storage": "",
+    "power": "",
+    "orderLineId": "6white",
+    "quantity": 3
+  }
+]

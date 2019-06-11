@@ -1,0 +1,13 @@
+{
+  "id": 4,
+  "name": "Nintendo switch",
+  "brand": "Nintendo",
+  "price": "4500",
+  "available": true,
+  "weight": 1.6,
+  "options": {
+    "black": { "color": "black", "storage": ["250", "500"], "quantity": 0 },
+    "white": { "color": "white", "storage": ["250", "500"], "quantity": 12 },
+    "red": { "color": "red", "storage": ["500"], "quantity": 5 }
+  }
+}
