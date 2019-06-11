@@ -1,6 +1,6 @@
-Boilerplate used: https://github.com/facebook/create-react-app
+## A shopping cart app
 
-A shopping cart app test.
+Boilerplate used: https://github.com/facebook/create-react-app
 
 JSON-data is loaded into the state after it has been remapped in `./data/api.js` because of inconsistensies in the data structure in the source json file. 
 
