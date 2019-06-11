@@ -26,11 +26,8 @@ export const ShopContextProvider = ({ children }) => {
     dispatch({ type: REMOVE_FROM_CART, payload: { key } })
   }
 
- 
-
   useEffect(() => {
     const initialize = async () => {
-      // const rawData = localStorage.getItem('shopping_cart')
       const productData = await productApiCall()
       dispatch({
         type: INITIALIZE_STATE,
@@ -42,13 +39,6 @@ export const ShopContextProvider = ({ children }) => {
     }
     initialize()
   }, [])
-
-  // useEffect(() => {
-  //   if(state.shoppingCart) {
-  //     localStorage.setItem('shopping_cart', JSON.stringify(state.shoppingCart))
-  //   }
-  // }, [state.shoppingCart])
-
 
   return (
     <ShopContext.Provider

@@ -13,40 +13,40 @@ const OrderLines = ({
           return (
             <li key={i}>
               <div>
-                <p>
+                <div>
                   Name: <span className="product-name">{line.name}</span>
-                </p>
-                <p>
+                </div>
+                <div>
                   Color: <span className="product-color">{line.color}</span>
-                </p>
+                </div>
                 {line.power && (
-                  <p>
+                  <div>
                     Power: <span className="product-power">{line.power}</span>
-                  </p>
+                  </div>
                 )}
                 {line.storage && (
-                  <p>
+                  <div>
                     Storage:{' '}
                     <span className="product-storage">{line.storage}</span>
-                  </p>
+                  </div>
                 )}
               </div>
               <div>
-                <p>
+                <div>
                   Brand: <span className="product-brand">{line.brand}</span>
-                </p>
-                <p>
+                </div>
+                <div>
                   Price: <span className="product-price">${line.price}</span>
-                </p>
+                </div>
               </div>
               <div>
-                <p>
+                <div>
                   Quantity:{' '}
                   <span className="product-quantity">{line.quantity}</span>
-                </p>
-                <p>
+                </div>
+                <div>
                   <span>${line.quantity * line.price}</span>
-                </p>
+                </div>
               </div>
               <div>
                 <span>

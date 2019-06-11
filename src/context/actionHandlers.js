@@ -4,6 +4,8 @@ export default {
   [ADD_TO_CART]: (state, payload) => {
     const selectedColor = payload.color
     const selectedProduct = state.products[payload.id]
+    const orderLine = state.shoppingCart[payload.orderLineId]
+    
     const nextState = {
       ...state,
       products: {
@@ -23,8 +25,8 @@ export default {
         ...state.shoppingCart,
         [payload.orderLineId]: {
           ...payload,
-          quantity: state.shoppingCart[payload.orderLineId]
-            ? state.shoppingCart[payload.orderLineId].quantity + 1
+          quantity: orderLine
+            ? orderLine.quantity + 1
             : 1
         }
       }
